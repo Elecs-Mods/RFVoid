@@ -1,1 +1,2 @@
-# RFVoid
+# BaseMod
+Basic mod code

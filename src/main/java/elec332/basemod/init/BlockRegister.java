@@ -1,4 +1,4 @@
-package elec332.rfvoid.init;
+package elec332.basemod.init;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -9,7 +9,11 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 public class BlockRegister {
     public static final BlockRegister instance = new BlockRegister();
 
-    public void init(){
+    public void preInit(FMLPreInitializationEvent event){
+        //Early block registering
+    }
+
+    public void init(FMLInitializationEvent event){
         //Normal block registering
     }
 }

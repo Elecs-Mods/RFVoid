@@ -1,4 +1,4 @@
-package elec332.rfvoid.init;
+package elec332.basemod.init;
 
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 
